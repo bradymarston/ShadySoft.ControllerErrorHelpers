@@ -5,7 +5,7 @@ namespace ShadySoft.ControllerErrorHelpers.Extensions.DepedencyInjection
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection ConfigureAutomaticValidationResponse(this IServiceCollection services)
+        public static IServiceCollection AddControllerErrorHelpers(this IServiceCollection services)
         {
             return services.Configure<ApiBehaviorOptions>(options =>
                 options.InvalidModelStateResponseFactory = context =>
