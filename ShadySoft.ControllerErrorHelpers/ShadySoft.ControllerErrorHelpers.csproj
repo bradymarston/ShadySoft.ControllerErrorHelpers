@@ -1,16 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Authors>Brady Marston</Authors>
-    <Company>ShadySoft</Company>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryType>Git</RepositoryType>
-    <RepositoryUrl>https://github.com/bradymarston/ShadySoft.ControllerErrorHelpers</RepositoryUrl>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="3.0.0-preview4-19121-08" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="3.0.0-preview4-19121-08" />
   </ItemGroup>
 
 </Project>
